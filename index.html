@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rochester&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="container center">
+      <img class="left-curtain" alt="left-ribbon" src="./images/curtain.jpg" />
+      <img
+        class="right-curtain"
+        alt="right-ribbon"
+        src="./images/curtain.jpg"
+      />
+      <img class="rope" alt="rope" src="./images/rope.jpg" />
+      <div class="logo-continer">
+        <img
+          alt="Nepal Water Supply Co Logo"
+          src="./images/waterLogo-removebg-preview.png"
+          height="80px"
+        />
+        <img
+          alt="Khane Pani Logo"
+          src="./images/khanePaniLogo.png"
+          height="70px"
+        />
+      </div>
+      <div class="welcome-message-container">
+        <img
+          class="namaste-image"
+          alt="namste"
+          src="./images/namaste.jpg"
+          height="130em"
+        />
+        <span class="welcome-text">Welcome To The New Begining</span>
+        <img
+          class="diya"
+          alt="unlightned Diya"
+          src="./images/unLightnedDiya.jpg"
+          height="100px"
+          width="100px"
+        />
+        <img
+          class="flame"
+          alt="unlightned Diya"
+          src="./images/flame.gif"
+          height="100px"
+          width="100px"
+        />
+      </div>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+    <script src="./confetti.js"></script>
+    <script>
+      $(".diya").on("click", () => {
+        startConfetti();
+      });
+    </script>
+  </body>
+</html>

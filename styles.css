@@ -1,0 +1,97 @@
+body {
+  height: 95vh;
+}
+
+/* confetti custom height */
+
+#confetti-canvas {
+  height: 95vh;
+}
+
+.container {
+  /* height: 80vh; */
+  width: 60vw;
+  background-color: #ffe6f767;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
+  padding-bottom: 50px;
+  cursor: url(./images/scissors.png), auto;
+}
+
+.left-curtain {
+  position: absolute;
+  height: 85vh;
+  width: 48%;
+  z-index: 9;
+  transition: 5s;
+}
+.right-curtain {
+  position: absolute;
+  height: 85vh;
+  right: 0;
+  width: 48%;
+  z-index: 9;
+  transition: 5s;
+}
+
+.rope {
+  position: absolute;
+  width: 10em;
+  z-index: 99;
+  top: 50%;
+  left: 39%;
+}
+
+.center {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.logo-continer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px 0 43px;
+}
+
+.namaste-image {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+.welcome-message-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* cursor: url(./images/flame.png), auto; */
+}
+
+.welcome-text {
+  font-family: "Rochester", cursive;
+  font-size: 40px;
+  font-weight: 600;
+  color: grey;
+  margin: 0 0 1.1em 0;
+}
+
+.diya {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  position: relative;
+}
+
+.diya:hover {
+  -webkit-filter: grayscale(70%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(70%);
+}
+
+.flame {
+  position: absolute;
+  bottom: 100px;
+  height: 80px;
+  width: 70px;
+  display: none;
+}
