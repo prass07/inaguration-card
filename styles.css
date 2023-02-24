@@ -71,10 +71,11 @@ body {
 
 .welcome-text {
   font-family: "Rochester", cursive;
-  font-size: 40px;
+  font-size: 24px;
   font-weight: 600;
   color: grey;
-  margin: 0 0 1.1em 0;
+  margin: 0 2em 1.1em 2em;
+  text-align: center;
 }
 
 .diya {
@@ -94,4 +95,14 @@ body {
   height: 80px;
   width: 70px;
   display: none;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.footer span {
+  opacity: 0.5;
 }
