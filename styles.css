@@ -70,11 +70,11 @@ body {
 }
 
 .welcome-text {
-  font-family: "Rochester", cursive;
-  font-size: 24px;
+  /* font-family: "Rochester", cursive; */
+  font-size: 22px;
   font-weight: 600;
   color: grey;
-  margin: 0 2em 1.1em 2em;
+  margin: 0 3em 1.1em 3em;
   text-align: center;
 }
 
