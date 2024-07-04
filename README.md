@@ -4,7 +4,7 @@ Welcome to the Inauguration Card project! This interactive card allows users to 
 
 ## Demo
 
-[![Inauguration Card Demo](video/demo.mp4)]
+![Inauguration Card Demo](video/demo.mp4)
 
 ## Features
 
