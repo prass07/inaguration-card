@@ -4,7 +4,7 @@ Welcome to the Inauguration Card project! This interactive card allows users to 
 
 ## Demo
 
-[![Watch the video](images/curtain.jpg)](video/demo.mp4)]
+https://github.com/prass07/inaguration-card/assets/54842334/3520ae04-dcd4-47a9-9797-f47dd643089a
 
 ## Features
 
